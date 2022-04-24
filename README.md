@@ -11,5 +11,5 @@ Before executing the C++ compiled programs, I run the command above to check whe
 
 $sudo systemctl start pigpiod or $sudo pigpiod
 
-![](https://www.raspberrypi.com/documentation/computers/images/GPIO-Pinout-Diagram-2.png)
+![](https://github.com/peng-ng/basic-circuit-control-using-raspberrypi/blob/main/manual_button_led.png)
 
