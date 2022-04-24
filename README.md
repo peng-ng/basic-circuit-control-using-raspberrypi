@@ -13,3 +13,6 @@ $sudo systemctl start pigpiod or $sudo pigpiod
 
 ![](https://github.com/peng-ng/basic-circuit-control-using-raspberrypi/blob/main/manual_button_led.png)
 
+Upper figure shows the wiring diagram to read a push button switch using digital input pin number GPIO 27 with pull-up resistor  
+
+Lower figure shows the wiring diagram to control an LED using output pin number GPIO 26 with current limiting resistor in series
