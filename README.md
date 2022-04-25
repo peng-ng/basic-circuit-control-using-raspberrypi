@@ -1,9 +1,9 @@
 # basic-circuit-control-using-raspberrypi
-This is my first repository containing C++ and python hello codes to control basic electronic devices using a Raspberry Pi 4  
+This is my first repository containing hello codes that can program a Raspberry Pi to control basic electronic circuits  
 
 **pb_control_led.cpp**  
 
-This program turns on and off an LED in response to the push button switch connected to a GPIO input pin, using callback functions that are automatically invoked according to the change of state at the input pin  
+This C++ source code can be compiled and run to turn on/off an LED in response to a push button switch connected to a GPIO input pin, using callback functions that are automatically invoked when the state of the input pin changes  
 
 To compile the .cpp file, run the command as follows -  
 
@@ -13,14 +13,15 @@ Before running the executable file, check whether the pigpio daemon is active or
 
 $systemctl is-active pigpiod  
 
-If it is not active, the command returns the result of "failed". To run or start the daemon, use either command as follows -  
+If the daemon is not active, the command returns the result of "failed". To run or start the daemon, use either command as follows -  
 
 $sudo systemctl start pigpiod or $sudo pigpiod  
 
-To run the executable file in the background, run the next command as follows -  
+To run the executable file in the background, run the shell command as follows -  
 
-$./pb_control_led &
+$./pb_control_led &  
 
+Schematic diagram of the wiring circuit is shown as follows -  
 ![](https://github.com/peng-ng/basic-circuit-control-using-raspberrypi/blob/main/manual_button_led.png)
 
 Upper figure shows the wiring diagram to read the open/close status of a push button switch using digital input pin number GPIO 27 with a pull-up resistor  
