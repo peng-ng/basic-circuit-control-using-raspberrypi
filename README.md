@@ -1,9 +1,9 @@
 # basic-circuit-control-using-raspberrypi
-**Introduction**  
+**(1) Introduction**  
 
 This is my first repository containing C/C++ hello codes that I use to program a Raspberry Pi 4 (RPI) to control basic electronic circuits. I am using the Raspbian Buster OS and the built-in GNU C++ compiler. I am also using the built-in PIGPIO library to control the RPI's general-purpose-input-output pins  
 
-**(1) pb_control_led.cpp**  
+**(2) pb_control_led.cpp**  
 
 ![](https://github.com/peng-ng/basic-circuit-control-using-raspberrypi/blob/main/manual_button_led.png)
 
@@ -29,7 +29,7 @@ To run the executable file in the background, run the shell command as follows -
 
 $./pb_control_led &  
 
-**(2) voice_control_led.cpp**  
+**(3) voice_control_led.cpp**  
 
 ![](https://github.com/peng-ng/basic-circuit-control-using-raspberrypi/blob/main/voice_control_led_1.png)  
 
@@ -46,4 +46,10 @@ The libbluetooth-dev package has to be installed because it has some of the blue
 
 The .cpp file can be compiled as follows  
 
-g++ -o voice_control_led voice_control_led.cpp -lpigpiod_if2 -lrt -lbluetooth
+g++ -o voice_control_led voice_control_led.cpp -lpigpiod_if2 -lrt -lbluetooth  
+
+**(4) Credits**  
+
+pb_control_led.cpp is adapted from the book Practical Robotics in C++: Build and Program Real Autonomous Robots Using Raspberry Pi (2021) by Lloyd Brombach  
+
+voice_control_led.cpp and VoiceControlBot.aia are adapted from the book Hands-On Robotics Programming with C++: Leverage Raspberry Pi 3 and C++ Libraries to Build Intelligent Robotics Applications (2019) by Dinesh Tavasalkar
