@@ -33,8 +33,9 @@ $./pb_control_led &
 
 ![](https://github.com/peng-ng/basic-circuit-control-using-raspberrypi/blob/main/voice_control_led_1.png)  
 
-The program turns on and off the LED light in response to my voice instructions ("ON", "OFF" and "EXIT") through an Android app running on my smartphone. The Android voice control app is developed using the MIT App Inventor. The voice control app archive is called VoiceControlBot.aia, and you can login to your AI account to import and have a look inside  
-
+The program turns on and off the LED light in response to my voice instructions ("ON", "OFF" and "EXIT") through an Android app running on my smartphone. The Android voice control app is developed using the MIT App Inventor. The voice control Android app is archived into the file called  **VoiceControlBot.aia**, and you can login to your AI account to import and have a look inside  
+  
+  
 ![](https://github.com/peng-ng/basic-circuit-control-using-raspberrypi/blob/main/mit_app_inventor_1.png)  
 
 ![](https://github.com/peng-ng/basic-circuit-control-using-raspberrypi/blob/main/mit_app_inventor_2.png)  
